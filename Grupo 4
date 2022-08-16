@@ -1,0 +1,28 @@
+#include(stdatx-h>
+#include < math.h>
+#include Liostream>
+#using namespace std;
+int main ()
+$.
+float
++1'
+1 YI, X2, Y21
+d
+cout<«In resar et valor de x.!" <-endl;
+cin >> XI
+>>
+Cout <6
+"Ingresar es valor de y: "«cend)
+cin>7y1
+>7
+/
+cout«<Ingresarelvalordexz:
+Il
+«Lendl°
+Cin >> Y2>7
+cout<¿Ingresar el valor de y2
+cin >> Y2
+小91玩xx8-十612-118丁
+Cout«"La distancia es. « d «< endl;
+return0;
+}
