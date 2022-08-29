@@ -1,0 +1,33 @@
+#include <iostream>
+#
+
+using namespace std;
+int main()
+{
+    float parcial1,parcial2,parcial3,parcial4,promedioparciales;
+    cout<<"Ingrese el parcial 1: ";
+    cin>>parcial1;
+    cout<<"Ingrese el parcial 2: ";
+    cin>>parcial2;
+    cout<<"Ingrese el parcial 3: ";
+    cin>>parcial3;
+    cout<<"Ingrese el parcial 4: ";
+    cin>>parcial4;
+    if ((parcial1>=0) && (parcial1 <=10) && (parcial2>=0) && (parcial2 <=10) && (parcial3>=0) && (parcial3 <=10) && (parcial4>=0) && (parcial4 <=10));
+  {  
+    
+  
+    promedioparciales=(parcial1+parcial2+parcial3+parcial4)/4;
+    cin>>promedioparciales;
+    if (promedioparciales>=0 && promedioparciales<2)
+    cout<<"Sin derecho a acreditar";
+    if  (promedioparciales>=2 && promedioparciales<5)
+    cout<<"Derecho a titulo";
+    if  (promedioparciales>=5 && promedioparciales<6)
+    cout<<"Derecho a extraordinario";
+    if  (promedioparciales>=6 && promedioparciales<=10)
+    cout<<"Aprobado";
+  }
+
+    
+}
