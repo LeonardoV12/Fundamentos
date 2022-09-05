@@ -1,0 +1,36 @@
+#include "stdafx.h"
+#include <iostream>
+#include "math.h"
+#include"conio.h"
+
+using namespace std;
+
+int main()
+{
+	float hermano1, hermano2, hermano3, mayor,menor;
+	cout<<"Cual es la edad del hermano 1: ";
+	cin>>hermano1;
+		cout<<"Cual es la edad del hermano 2: ";
+	cin>>hermano2;
+		cout<<"Cual es la edad del hermano 3: ";
+	cin>>hermano3;
+
+       if (hermano1=mayor);
+		(hermano1=menor);
+		
+	if (mayor<hermano2)
+	 hermano2=mayor;
+	if (mayor<hermano3)
+		hermano3=mayor ;
+
+	cout<<"El hermano mayor es:"<<endl;
+
+		
+	if (menor>hermano2)
+	 hermano2=menor;
+	if (menor>hermano3)
+		hermano3=menor ;
+
+		getch();
+	return 0;
+}
