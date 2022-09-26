@@ -1,0 +1,22 @@
+//Leonardo Veremeeenco// Ejercicio 4//
+
+#include "math.h"
+#include"conio.h"
+#include <iostream>
+
+using namespace std;
+int main ()
+{
+	int n, suma = 0,signo=1 ;
+
+	cout<<"Digite el numero de elementos: ";
+	cin>>n;
+
+	for(int i=1 ; i<=n;i++){
+		suma=suma+ signo*i;
+			signo=-signo;
+	}
+	cout<<"El valor es:"<<suma<<endl;
+
+	return 0;
+}
